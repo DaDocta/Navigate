@@ -17,7 +17,7 @@ class ResultGUI:
         self.text_area = scrolledtext.ScrolledText(master, wrap=tk.WORD, width=80, height=20)
         self.text_area.pack(pady=10, padx=10)
 
-        # Testing now
+        # Testing
         self.text_area.delete("1.0", tk.END)
 
         # Display AI response or regular results
